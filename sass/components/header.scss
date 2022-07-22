@@ -1,0 +1,26 @@
+header {
+    border-bottom: 1px solid #ECECEC;
+}
+.nav-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+a.logo {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: var(--text-color-bold);
+    font-size: 26px;
+    margin-right: 90px;
+}
+.web {
+    color: var(--blue-brand-color);
+}
+.studio {
+    color:  var(--text-color-bold);
+}
+ul { 
+    list-style: none; 
+}

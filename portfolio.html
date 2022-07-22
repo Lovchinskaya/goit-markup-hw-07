@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -44,141 +44,131 @@
     <main>
      <section class="portfolio">
         <div class="container">
-                <ul class="filters">
-                    <li class="filter-button">
-                        <a href="#" class="button-filter-group">
-                            <button class="filter" type="button">Все</button>
-                        </a>
+                <ul class="filter">
+                    <li class="filter__cover-button">
+                        <button class="filter__button" type="button">Все</button>    
                     </li>
-                    <li class="filter-button">
-                        <a href="#" class="button-filter-group">
-                            <button class="filter" type="button">Веб-сайты</button> 
-                         </a>
+                    <li class="filter__cover-button">
+                        <button class="filter__button" type="button">Веб-сайты</button>      
                     </li>
-                    <li class="filter-button">
-                        <a href="#" class="button-filter-group">
-                            <button class="filter" type="button">Приложения</button> 
-                         </a>
+                    <li class="filter__cover-button">
+                        <button class="filter__button" type="button">Приложения</button>    
                     </li>
-                    <li class="filter-button">
-                        <a href="#" class="button-filter-group">
-                            <button class="filter" type="button">Дизайн</button>
-                        </a>
+                    <li class="filter__cover-button">
+                        <button class="filter__button" type="button">Дизайн</button>   
                     </li>
-                    <li class="filter-button">
-                        <a href="#" class="button-filter-group">
-                            <button class="filter" type="button">Маркетинг</button> 
-                         </a>
+                    <li class="filter__cover-button">
+                        <button class="filter__button" type="button">Маркетинг</button>     
                     </li>         
                  </ul>
                  <ul class="portfolio-descriptions">                 
                     <li class="cards-portfolio">
-                        <div class="backdrop-overlay">
-                                <img class="backdrop-image" src="./images/imgfirst.jpg" alt="Технокряк" width="370">
-                                <div class="backdrop">
-                                    <p class="backdrop-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        <div class="cards-portfolio__backdrop-overlay">
+                                <img src="./images/imgfirst.jpg" alt="Технокряк" width="370">
+                                <div class="cards-portfolio__backdrop">
+                                    <p class="cards-portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>      
                                 <div class="card-portfolio-desc">
-                                    <h3 class="sub-title-description-card">Технокряк</h3>
-                                    <p class="text-description-card">Веб-сайт</p>
+                                    <h3 class="card-portfolio-desc__card">Технокряк</h3>
+                                    <p class="card-portfolio__text">Веб-сайт</p>
                                 </div>
                         </div>
                     </li>
                     <li class="cards-portfolio">
-                        <div class="backdrop-overlay">
+                        <div class="cards-portfolio__backdrop-overlay">
                             <img src="./images/imgsecond.jpg" alt="Постер New Orlean vs Golden Star" width="370">
-                            <div class="backdrop">
-                                <p class="backdrop-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            <div class="cards-portfolio__backdrop">
+                                <p class="cards-portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
                             <div class="card-portfolio-desc">
-                                <h3 class="sub-title-description-card">Постер New Orlean vs Golden Star</h3>
-                                <p class="text-description-card">Дизайн</p>
+                                <h3 class="card-portfolio-desc__card">Постер New Orlean vs Golden Star</h3>
+                                <p class="card-portfolio__text">Дизайн</p>
                             </div>
                         </div>
                     </li>
                     <li class="cards-portfolio">
-                        <div class="backdrop-overlay">
+                        <div class="cards-portfolio__backdrop-overlay">
                             <img src="./images/imgthird.jpg" alt="Ресторан Seafood" width="370">
-                            <div class="backdrop">
-                                <p class="backdrop-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            <div class="cards-portfolio__backdrop">
+                                <p class="cards-portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
                             <div class="card-portfolio-desc">
-                                <h3 class="sub-title-description-card">Ресторан Seafood</h3>
-                                <p class="text-description-card">Приложение</p>
+                                <h3 class="card-portfolio-desc__card">Ресторан Seafood</h3>
+                                <p class="card-portfolio__text">Приложение</p>
                             </div>
                         </div>
                     </li>
                     <li class="cards-portfolio">
-                        <div class="backdrop-overlay">
+                        <div class="cards-portfolio__backdrop-overlay">
                             <img src="./images/imgfouth.jpg" alt="Проект Prime" width="370">
-                            <div class="backdrop">
-                                <p class="backdrop-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            <div class="cards-portfolio__backdrop">
+                                <p class="cards-portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
                             <div class="card-portfolio-desc">
-                                <h3 class="sub-title-description-card">Проект Prime</h3>
-                                <p class="text-description-card">Маркетинг</p>
+                                <h3 class="card-portfolio-desc__card">Проект Prime</h3>
+                                <p class="card-portfolio__text">Маркетинг</p>
                             </div>
                         </div>
 
                     </li>
                     <li class="cards-portfolio">
-                        <div class="backdrop-overlay">
+                        <div class="cards-portfolio__backdrop-overlay">
                             <img src="./images/img5.jpg" alt="Проект Boxes" width="370">
-                            <div class="backdrop">
-                                <p class="backdrop-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            <div class="cards-portfolio__backdrop">
+                                <p class="cards-portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
                             <div class="card-portfolio-desc">
-                                <h3 class="sub-title-description-card">Проект Boxes</h3>
-                                <p class="text-description-card">Приложение</p>
+                                <h3 class="card-portfolio-desc__card">Проект Boxes</h3>
+                                <p class="card-portfolio__text">Приложение</p>
                             </div>
                         </div>
                     </li>
                     <li class="cards-portfolio">
-                        <div class="backdrop-overlay">
+                        <div class="cards-portfolio__backdrop-overlay">
                             <img src="./images/img6.jpg" alt="Inspiration has no Borders" width="370">
-                            <div class="backdrop">
-                                <p class="backdrop-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            <div class="cards-portfolio__backdrop">
+                                <p class="cards-portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
                             <div class="card-portfolio-desc">
-                                <h3 class="sub-title-description-card">Inspiration has no Borders</h3>
-                                <p class="text-description-card">Веб-сайт</p>
+                                <h3 class="card-portfolio-desc__card">Inspiration has no Borders</h3>
+                                <p class="card-portfolio__text">Веб-сайт</p>
                             </div>
                         </div>
                     </li>
                     <li class="cards-portfolio">
-                        <div class="backdrop-overlay">
+                        <div class="cards-portfolio__backdrop-overlay">
                             <img src="./images/img7.jpg" alt="Издание Limited Edition" width="370">
-                            <div class="backdrop">
-                                <p class="backdrop-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            <div class="cards-portfolio__backdrop">
+                                <p class="cards-portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
                             <div class="card-portfolio-desc">
-                                <h3 class="sub-title-description-card">Издание Limited Edition</h3>
-                                <p class="text-description-card">Дизайн</p>
+                                <h3 class="card-portfolio-desc__card">Издание Limited Edition</h3>
+                                <p class="card-portfolio__text">Дизайн</p>
                             </div>
                         </div>
                     </li>
                     <li class="cards-portfolio">
-                        <div class="backdrop-overlay">
+                        <div class="cards-portfolio__backdrop-overlay">
                             <img src="./images/img8.jpg" alt="Проект LAB" width="370">
-                            <div class="backdrop">
-                                <p class="backdrop-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            <div class="cards-portfolio__backdrop">
+                                <p class="cards-portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
                             <div class="card-portfolio-desc">
-                                <h3 class="sub-title-description-card">Проект LAB</h3>
-                                <p class="text-description-card">Маркетинг</p>
+                                <h3 class="card-portfolio-desc__card">Проект LAB</h3>
+                                <p class="card-portfolio__text">Маркетинг</p>
                             </div>
                         </div>
 
                     </li>
                     <li class="cards-portfolio">
-                        <div class="backdrop-overlay">
+                        <div class="cards-portfolio__backdrop-overlay">
                             <img src="./images/img9.jpg" alt="Growing Business" width="370">
-                            <div class="backdrop">
-                                <p class="backdrop-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            <div class="cards-portfolio__backdrop">
+                                <p class="cards-portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
                             <div class="card-portfolio-desc">
-                                <h3 class="sub-title-description-card">Growing Business</h3>
-                                <p class="text-description-card">Приложение</p>
+                                <h3 class="card-portfolio-desc__card">Growing Business</h3>
+                                <p class="card-portfolio__text">Приложение</p>
                             </div>
                         </div>
 
