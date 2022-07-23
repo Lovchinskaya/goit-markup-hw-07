@@ -18,30 +18,31 @@
     align-items: center;
     justify-content: center;
     height: inherit;
-}
-.top-section__main-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--general-white-color);
-    text-align: center;  
-    letter-spacing: 0.06em;
-    width: 700px;
-    display: block;  
-}
-.top-section__book-service {
-    width: 200px;
-    height: 50px;
-    color: var(--general-white-color);
-    background-color:  var(--blue-brand-color); 
-    border-radius: 4px; 
-    border: 0px; 
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 35px;
+
+    &__main-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--general-white-color);
+        text-align: center;  
+        letter-spacing: 0.06em;
+        width: 700px;
+        display: block;  
+    }
+    &__book-service {
+        width: 200px;
+        height: 50px;
+        color: var(--general-white-color);
+        background-color:  var(--blue-brand-color); 
+        border-radius: 4px; 
+        border: 0px; 
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 35px;
+    }
 }

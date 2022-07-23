@@ -45,28 +45,29 @@ ul > .cards-portfolio{
         letter-spacing: 0.03em;
         color: var(--general-white-color);
     }
-}
 
-.card-portfolio-desc {
+}
+.portfolio-desc {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 20px;
     position: relative;
     background-color: var(--general-white-color);
+
+    &__card {
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--text-color-bold);
+        letter-spacing: 0.06em;
+        line-height: 2;
+        margin-bottom: 4px;
+    }
+    &__text {
+        color: var(--text-color);
+        letter-spacing: 0.03em;
+        line-height: 1.87;
+        font-size: 16px;
+    }
 }
- 
-.card-portfolio-desc__card {
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--text-color-bold);
-    letter-spacing: 0.06em;
-    line-height: 2;
-    margin-bottom: 4px;
-}
-.card-portfolio-desc__text {
-    color: var(--text-color);
-    letter-spacing: 0.03em;
-    line-height: 1.87;
-    font-size: 16px;
-}
+

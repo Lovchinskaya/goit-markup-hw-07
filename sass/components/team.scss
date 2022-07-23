@@ -14,22 +14,24 @@
     width: 270px;
     box-shadow: 0 2px 2px var(--text-color);
     text-align: center;
+
+    &__desc{
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+    &__sub-title{
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: var(--text-color-bold);
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+    }
+    &__text-member{
+        color: var(--text-color);
+        letter-spacing: 0.03em;
+        line-height: 1.18;
+        font-size: 16px;
+    }
 }
-.card__desc{
-    padding-top: 28px;
-    padding-bottom: 28px;
-}
-.card__sub-title{
-    font-weight: 500;
-    font-size: 16px;
-    margin-bottom: 15px;
-    color: var(--text-color-bold);
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-}
-.card__text-member{
-    color: var(--text-color);
-    letter-spacing: 0.03em;
-    line-height: 1.18;
-    font-size: 16px;
-}
+

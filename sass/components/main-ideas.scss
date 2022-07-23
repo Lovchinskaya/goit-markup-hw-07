@@ -39,6 +39,12 @@
         align-items: center;
         justify-content: center;
     }  
+    &__text {
+        color: var(--text-color);
+        letter-spacing: 0.03em;
+        line-height: 1.7;
+        font-size: 14px;
+    }
 }
 
 

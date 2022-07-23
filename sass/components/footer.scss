@@ -50,12 +50,14 @@ a.logo-footer {
     margin-top: 20px; 
 }
 /*for icon footer*/
-.social-group__cover-footer {
-    background-color: #44454E;
-    margin-right: 10px;
-}
-.social-group__icon-footer {
-    fill: var(--general-white-color);
+.social-group {
+    &__cover-footer {
+        background-color: #44454E;
+        margin-right: 10px;
+    }
+    &__icon-footer {
+        fill: var(--general-white-color);
+    }
 }
 
 .subscribe {
